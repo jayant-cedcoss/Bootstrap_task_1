@@ -1,0 +1,88 @@
+h3{
+	color:white;
+}
+
+.icons li{
+	display:inline-block;
+	margin-left: 0%;
+	text-align:left;
+	color:white;
+	list-style: none;
+}
+span{
+	color:white;
+	text-align: right;
+}
+#header{
+	padding:5%;
+	width:30%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-image: url('fog-view.jpg');
+	background-size: cover;
+	background-position: justify 0px;
+	float:left;
+	background-attachment:scroll,fixed;
+	position:fixed;
+
+}
+.footer1{
+	float:right;
+	display:none;
+	text-align: center;
+	padding:0%;
+	margin: 0%;
+
+}
+@media only screen and (max-width: 1000px) {
+    #header {
+        width:100%;
+        position:relative;
+    }
+    #first{
+    	position: absolute;
+    	width:100%;
+    	float:left;
+    	margin:0%;
+    	
+    	text-align:justify;
+    }
+    .footer{
+    	display:none;
+    }
+    .footer1{
+    	visibility: visible;
+    	display: block;
+    }
+}
+p{
+	text-align:justify;
+}
+.inner{
+	text-align:left;
+	padding-bottom: 10%;
+}
+.foot_last li{
+	list-style: none;
+	margin-right: 10%;
+}
+#first{
+	width:68%;
+	float:right;
+	padding-top:5%;
+	position: relative;
+}
+.foot_last{
+	padding: 15%;
+}
+.button{
+	border:1px solid gray;
+	padding:10px;
+	border-radius: 10px
+}
+.col-md-6 img{
+	border-radius: 10px;
+}
+#top{
+	height:100%;
+}
